@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Circulo circle = new Circulo(5.0);
-        System.out.println("Radio del círculo: " + circle.getRadio());
-        System.out.println("Área del círculo: " + circle.getArea());
+        Circulo circulo = new Circulo(3.0);
+        System.out.println("Radio del círculo: " + circulo.getRadio());
+        System.out.println("Área del círculo: " + circulo.getArea());
 
-        Cilindro cilinder = new Cilindro(3.0, 7.0);
+        Cilindro cilinder = new Cilindro(1.0, 4.0);
         System.out.println("Radio del cilindro: " + cilinder.getRadio());
         System.out.println("Altura del cilindro: " + cilinder.getAltura());
         System.out.println("Área del círculo en el cilindro: " + cilinder.getArea());
